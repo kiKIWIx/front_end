@@ -1,8 +1,10 @@
 * {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
     background-color: black;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
 }
 
 h1 {
@@ -23,6 +25,7 @@ img {
 .conteudo {
     width: 480px;
     padding: 2.5px 10px;
+    text-align: center;
 }
 
 .container {
@@ -41,4 +44,8 @@ img {
 
 .cinza-escuro {
     background-color: #404040;
+}
+
+a {
+    text-decoration: ;
 }
