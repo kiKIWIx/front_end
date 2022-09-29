@@ -26,6 +26,7 @@ img {
     width: 480px;
     padding: 2.5px 10px;
     text-align: center;
+    padding: 25px;
 }
 
 .container {
@@ -46,6 +47,3 @@ img {
     background-color: #404040;
 }
 
-a {
-    text-decoration: ;
-}

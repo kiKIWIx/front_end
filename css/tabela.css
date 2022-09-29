@@ -11,13 +11,13 @@
     color: #ddd;
 }
 
-#tabela td,
-#tabela th {
+#tabela td,#tabela th {
     border: 1px solid #ddd;
+    padding: 8px;
 }
 
-#tabela th:nth-child(even) {
-    background-color: white;
+#tabela tr:nth-child(even) {
+    background-color: #404040;
 }
 
 #tabela th:hover {
