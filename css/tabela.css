@@ -1,33 +1,30 @@
-#tabela {
+#tabela{
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 
-#tabela th {
-    padding: 12px 0px;
+#tabela th{
+    padding:12px 0px;
     text-align: left;
     background-color: #2a768d;
-    color: #ddd;
+    color:white;
 }
 
-#tabela td,#tabela th {
+#tabela td, #tabela th{
     border: 1px solid #ddd;
     padding: 8px;
 }
 
-#tabela tr:nth-child(even) {
+#tabela tr:nth-child(even){
     background-color: #404040;
 }
-
-#tabela th:hover {
-    background-color: #355484;
+#tabela th:hover{
+    background-color: #385184;
 }
-
 #tabela tr:nth-child(even):hover{
-    background-color: #2a2a2a
+    background-color: #2a2a2a;
 }
-
 #tabela tr:hover{
-    background-color: #808080;
+    background-color:#808080;
 }

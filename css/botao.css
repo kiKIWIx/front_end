@@ -1,5 +1,6 @@
-.botao {
-    text-decoration: none;  
+
+.botao{
+    text-decoration: none;
     margin: 3;
     padding: 5px 15px;
     background-color: #08ba94;
@@ -9,6 +10,4 @@
 }
 .botao:hover{
     background-color: #05998d;
-
 }
-
