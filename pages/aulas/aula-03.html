@@ -1,23 +1,25 @@
 <html lang="pt-br">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Prof Gustavo Ferreira">
     <meta name="descripion" content="Página de introdução ao Desenvolviemento web - Aula 01">
     <title>Aula 01 - Git com HTML e CSS</title>
-    <link rel="stylesheet" href="../../css/estilo.css" type="text/css"> 
+    <link rel="stylesheet" href="../../css/estilo.css" type="text/css">
     <link rel="stylesheet" href="../../css/botao.css" type="text/css">
     <link rel="stylesheet" href="../../css/layout.css" type="text/css">
     <link rel="stylesheet" href="../../css/lista.css" type="text/css">
+    <script src="../../js/Soma.js"></script>
 </head>
 
 <body>
-   <header>
-       <img src="../../img/logo.jpg" alt="Logo Microcamp" id="arredondar">
-       <h1>03 - Introdução ao JavaScript</h1>
-   </header>
-   <section>
-       <nav>
+    <header>
+        <img src="../../img/logo.jpg" alt="Logo Microcamp" id="arredondar">
+        <h1>03 - Introdução ao JavaScript</h1>
+    </header>
+    <section>
+        <nav>
             <ul>
                 <li>
                     <a href="aula-01.html">
@@ -35,21 +37,39 @@
                 </li>
                 <li>
                     <a href="aula-03.html">
-                        <div class="botao-lista"> 
+                        <div class="botao-lista">
                             Aula 03 - Introdução a JS
                         </div>
                     </a>
                 </li>
             </ul>
-       </nav>
-       <article>
-            <p id="altera">O vídeo fornece uma maneira poderosa de ajudá-lo a provar seu argumento. Ao clicar em Vídeo Online, você pode colar o código de inserção do vídeo que deseja adicionar. Você também pode digitar uma palavra-chave para pesquisar online o vídeo mais adequado ao seu documento. Para dar ao documento uma aparência profissional, o Word fornece designs de cabeçalho, rodapé, folha de rosto e caixa de texto que se complementam entre si. Por exemplo, você pode adicionar uma folha de rosto, um cabeçalho e uma barra lateral correspondentes.</p>
-            <button onclick='document.getElementById("altera").innerHTML = "Olá Mundo! Em JavaScript 👍"'>OK</button>    
+        </nav>
+        <article>
+            <p id="altera">O vídeo fornece uma maneira poderosa de ajudá-lo a provar seu argumento. Ao clicar em Vídeo
+                Online, você pode colar o código de inserção do vídeo que deseja adicionar. Você também pode digitar uma
+                palavra-chave para pesquisar online o vídeo mais adequado ao seu documento. Para dar ao documento uma
+                aparência profissional, o Word fornece designs de cabeçalho, rodapé, folha de rosto e caixa de texto que
+                se complementam entre si. Por exemplo, você pode adicionar uma folha de rosto, um cabeçalho e uma barra
+                lateral correspondentes.</p>
+            <button onclick='document.getElementById("altera").innerHTML = "Olá Mundo! Em JavaScript 👍"'>OK</button>
+            <h2 class="cinza-escuro">IOperadoes aritméticos</h2>
+            <h3 class="cinza-claro">Realiznando adição com JavaScript</h3>
+            <p>Exemplo de uma soma de 2+2= <strong id="resultado">Mostrando o resultado...</resultado></strong></p>
+            <a class="botao" id="confirmado-ad" href="#" onclick='soma()'>resultado</a>
+            <h3 class="cinza-claro">Realizando multiplicação com JavaScript</h3>
+            <p>Exemplo de uma multiplicacao de 2*2= <strong id="resultado2">Mostrando o resultado...</strong></p>
+            <a class="botao" id="confirmado-mu" href="#" onclick='multiplicacao()'>resultado</a>
+            <p class="cinza-claro">Realizando uma subtração com JavaScript</p>
+            <p>Exemplo de uma subtração de 5-3= <strong id="resultado3">Mostrando o resultado...</strong></p>
+            <a class="botao" id="confirmado-sub" href="#" onclick='subtracao()'>resultado</a>
+            <p class="cinza-claro">Realizando uma divisão com JavaScript</p>
+            <p>Exemplo de uma divisão de 8/2= <strong id="resultado4">Mostrando o resultado...</strong></p>
+            <a class="botao" id="confirmado-div" href="#" onclick='divisao()'>resultado</a>
         </article>
-   </section>
-   <footer>
-       <h3>Isso aqui é o footer</h3>
-   </footer>
+    </section>
+    <footer>
+        <h3>Isso aqui é o footer</h3>
+    </footer>
 </body>
 
 </html>
