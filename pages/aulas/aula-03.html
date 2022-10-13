@@ -20,8 +20,14 @@
 
 <body>
     <header>
-        <img src="../../img/logo.jpg" alt="Logo Microcamp" id="arredondar">
-        <h1>03 - Introdução ao JavaScript</h1>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="http:microcamp.com">
+                    <img src="../../img/logo.jpg" alt="Logo Microcamp" id="arredondar">
+                </a>
+                <h1>03 - Introdução ao JavaScript</h1>
+            </div>
+        </nav>
     </header>
     <section>
         <nav>
@@ -60,57 +66,90 @@
             <h2 class="cinza-escuro">IOperadoes aritméticos</h2>
             <div class="row">
                 <div class="col-sm-6">
-                    <div class="p-2">
-                        <h3 class="cinza-claro">01 Adição com JavaScript</h3>
-                        <p>Exemplo de uma soma de 2+2= <strong id="resultado">Mostrando o resultado...</resultado>
-                            </strong></p>
+                    <div class="p-2 mt-3 bg-white">
+                        <h3>01 Adição com JavaScript</h3>
+                        <div class="card">
+                            <div class="card-body">
+                                <p>Exemplo de uma soma de 2+2= <strong id="resultado">Mostrando o resultado...
+                                        </resultado>
+                                    </strong></p>
+                            </div>
+                        </div>
                         <a class="botao" id="confirmado-ad" href="#" onclick='soma()'>resultado</a>
                     </div>
-                    <div class="p-2">
-                        <h3 class="cinza-claro">02 Multiplicação com JavaScript</h3>
-                        <p>Exemplo de uma multiplicacao de 2*2= <strong id="resultado2">Mostrando o
-                                resultado...</strong></p>
+                    <div class="p-2 mt-3 bg-white">
+                        <h3>02 Multiplicação com JavaScript</h3>
+                        <div class="card">
+                            <div class="card-body">
+                                <p>Exemplo de uma multiplicacao de 2*2= <strong id="resultado2">Mostrando o
+                                    resultado...</strong></p>
+                            </div>
+                        </div>
                         <a class="botao" id="confirmado-mu" href="#" onclick='multiplicacao()'>resultado</a>
                     </div>
-                    <div class="p-2">
-                        <h3 class="cinza-claro">03 Subtração com JavaScript</h3>
+                    <div class="p-2 mt-3 bg-white">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>03 Subtração com JavaScript</h3>
                         <p>Exemplo de uma subtração de 5-3= <strong id="resultado3">Mostrando o resultado...</strong>
                         </p>
+                            </div>
+                        </div>
                         <a class="botao" id="confirmado-sub" href="#" onclick='subtracao()'>resultado</a>
                     </div>
-                    <div class="p-2">
-                        <h3 class="cinza-claro">04 Divisão com JavaScript</h3>
-                        <p>Exemplo de uma divisão de 8/2= <strong id="resultado4">Mostrando o resultado...</strong></p>
+                    <div class="p-2 mt-3 bg-white">
+                        <h3>04 Divisão com JavaScript</h3>
+                        <div class="card">
+                            <div class="card-body">
+                                <p>Exemplo de uma divisão de 8/2= <strong id="resultado4">Mostrando o resultado...</strong></p>
+                            </div>
+                        </div>
                         <a class="botao" id="confirmado-div" href="#" onclick='divisao()'>resultado</a>
                     </div>
                 </div>
-                    <div class="col-sm-6">
-                        <div class="p-2">
-                            <h3 class="cinza-claro">05 Exponenciação com JavaScript</h3>
+                <div class="col-sm-6">
+                    <div class="p-2 mt-3 bg-white">
+                    <h3>05 Exponenciação com JavaScript</h3>
+                    <div class="card">
+                        <div class="card-body">
                             <p>Exemplo de uma soma de 2**3= <strong id="resultado-ex">Mostrando o resultado...</resultado>
-                                </strong></p>
-                            <a class="botao" id="confirmado-ex" href="#" onclick='exponenciacao()'>resultado</a>
-                        </div>
-                        <div class="p-2">
-                            <h3 class="cinza-claro">06 Resto com JavaScript</h3>
-                            <p>Exemplo de uma multiplicacao de 5%2= <strong id="resultado-res">Mostrando o
-                                    resultado...</strong></p>
-                            <a class="botao" id="confirmado-res" href="#" onclick='resto()'>resultado</a>
-                        </div>
-                        <div class="p-2">
-                            <h3 class="cinza-claro">07 Incrementação com JavaScript</h3>
-                            <p>Exemplo de uma subtração de 5-3= <strong id="resultado-inc">Mostrando o
-                                    resultado...</strong>
-                            </p>
-                            <a class="botao" id="confirmado-inc" href="#" onclick='incrementacao()'>resultado</a>
-                        </div>
-                        <div class="p-2">
-                            <h3 class="cinza-claro">08 Decrementação com JavaScript</h3>
-                            <p>Exemplo de uma divisão de 8/2= <strong id="resultado-dec">Mostrando o resultado...</strong>
-                            </p>
-                            <a class="botao" id="confirmado-dec" href="#" onclick='decrementacao()'>resultado</a>
+                            </strong></p>
                         </div>
                     </div>
+                    <a class="botao" id="confirmado-ex" href="#" onclick='exponenciacao()'>resultado</a>
+                </div>
+                <div class="p-2 mt-3 bg-white">
+                <h3>06 Resto com JavaScript</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <p>Exemplo de uma multiplicacao de 5%2= <strong id="resultado-res">Mostrando o
+                            resultado...</strong></p>
+                    </div>
+                </div>
+                <a class="botao" id="confirmado-res" href="#" onclick='resto()'>resultado</a>
+            </div>
+            <div class="p-2 mt-3 bg-white">
+                <h3>07 Incrementação com JavaScript</h3>
+                <div class="card">
+                    <div class="card-body">
+                        <p>Exemplo de uma subtração de 5-3= <strong id="resultado-inc">Mostrando o
+                            resultado...</strong>
+                    </div>
+                </div>
+                </p>
+                <a class="botao" id="confirmado-inc" href="#" onclick='incrementacao()'>resultado</a>
+            </div>
+            <div class="p-2 mt-3 bg-white">
+            <h3>08 Decrementação com JavaScript</h3>
+            <div class="card">
+                <div class="card-body">
+                    <p>Exemplo de uma divisão de 8/2= <strong id="resultado-dec">Mostrando o resultado...</strong>
+                    </p>
+                </div>
+            </div>
+            <a class="botao" id="confirmado-dec" href="#" onclick='decrementacao()'>resultado</a>
+            </div>
+            </div>
         </article>
     </section>
     <footer>
