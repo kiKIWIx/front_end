@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Prof Gustavo Ferreira">
     <meta name="descripion" content="Página de introdução ao Desenvolviemento web - Aula 03">
-    <title>Aula 03 - Git com HTML e CSS</title>
+    <title>Aula 05 - Operadores aritméticos</title>
     <link rel="stylesheet" href="../../css/estilo.css" type="text/css">
     <link rel="stylesheet" href="../../css/botao.css" type="text/css">
     <link rel="stylesheet" href="../../css/lista.css" type="text/css">
@@ -23,14 +23,14 @@
     <header class="">
         <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <div class="container-fluid">
-                <ul class="navbar-nav container mt-3">
+                <ul class="navbar-nav container">
                     <li class="nav-item">
                         <a class="navbar-brand" href="http:microcamp.com">
                             <img src="../../img/logo.jpg" style="width: 60px;" alt="Logo Microcamp" id="arredondar">
                         </a>
                     </li>
                     <li class="nav-item text-white">
-                        <h3>03 - Introdução ao JavaScript</h3>
+                        <h3>05 - Operadores aritméticos</h3>
                     </li>
                 </ul>
             </div>
@@ -38,7 +38,7 @@
     </header>
     <section class="row">
         <nav class="col-lg-3 bg-purple">
-            <ul class="navbar-nav mt-3">
+            <ul class="navbar-nav m-3">
                 <li class="nav-item">
                     <a href="aula-01.html">
                         <div class="botao-lista">
@@ -77,11 +77,11 @@
             </ul>
         </nav>
         <article class="col-lg-9">
-            <h3 class="cinza-escuro text-center text-white p-2 m-3">Operadoes aritméticos</h3>
+            <h3 class="cinza-escuro text-center text-white p-2 m-3">Operadores aritméticos</h3>
             <div class="row">
                 <div class="col-lg-6">
                     <div class="p-2 mt-3 bg-white m-3">
-                        <p class="cinza-claro p-2 m-3">Igual com JavaScript</p>
+                        <p class="cinza-claro p-2 m-3" id="1">Igual com JavaScript</p>
                         <div class="card m-3">
                             <div class="card-body">
                                 <p class="">Exemplo de uma comparação igual de 2 == 2= <strong
@@ -89,85 +89,94 @@
                                         </resultado>
                                     </strong>
                                 </p>
+                                <div class="text-center">
+                                    <a class="botao" id="confirmado-igual" href="#1" onclick='igual()'>resultado</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="text-center">
-                            <a class="botao" id="confirmado-igual" href="#" onclick='igual()'>resultado</a>
-                        </div>
+
                     </div>
                     <div class="p-2 mt-3 bg-white m-3">
-                        <p class="cinza-claro p-2 m-3">Diferente com JavaScript</p>
+                        <p class="cinza-claro p-2 m-3" id="2">Diferente com JavaScript</p>
                         <div class="card m-3">
                             <div class="card-body">
                                 <p>Exemplo de uma comparação diferente de 4 != 2= <strong
                                         id="resultado-diferente">Mostrando o
                                         resultado...</strong></p>
+                                <div class="text-center">
+                                    <a class="botao" id="confirmado-diferente" href="#2"
+                                        onclick='diferente()'>resultado</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="text-center">
-                            <a class="botao" id="confirmado-diferente" href="#" onclick='diferente()'>resultado</a>
-                        </div>
+
                     </div>
                     <div class="p-2 mt-3 bg-white m-3">
-                        <p class="cinza-claro p-2 m-3">Maior com JavaScript</p>
+                        <p class="cinza-claro p-2 m-3" id="3">Maior com JavaScript</p>
                         <div class="card m-3">
                             <div class="card-body">
                                 <p>Exemplo de uma comparação maior de 3 > 1= <strong id="resultado-maior">Mostrando o
                                         resultado...</strong>
                                 </p>
+                                <div class="text-center">
+                                    <a class="botao" id="confirmado-maior" href="#3" onclick='maior()'>resultado</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="text-center">
-                            <a class="botao" id="confirmado-maior" href="#" onclick='maior()'>resultado</a>
-                        </div>
+
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="p-2 mt-3 bg-white m-3">
-                        <p class="cinza-claro p-2 m-3">Menor com JavaScript</p>
+                        <p class="cinza-claro p-2 m-3" id="4">Menor com JavaScript</p>
                         <div class="card m-3">
                             <div class="card-body">
                                 <p>Exemplo de uma comparação menor de 2 < 9=<strong id="resultado-menor">Mostrando o
                                         resultado...</strong></p>
+                                <div class="text-center">
+                                    <a class="botao" id="confirmado-menor" href="#4" onclick='menor()'>resultado</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="text-center">
-                            <a class="botao" id="confirmado-menor" href="#" onclick='menor()'>resultado</a>
-                        </div>
+
                     </div>
 
                     <div class="p-2 mt-3 bg-white m-3">
-                        <p class="cinza-claro p-2 m-3">Maior-Igual com JavaScript</p>
+                        <p class="cinza-claro p-2 m-3" id="5">Maior-Igual com JavaScript</p>
                         <div class="card m-3">
                             <div class="card-body">
                                 <p>Exemplo de uma comparação maior-igual de 3 >= 1= <strong
                                         id="resultado-maiorIgual">Mostrando o resultado...
                                         </resultado>
                                     </strong></p>
+                                <div class="text-center">
+                                    <a class="botao" id="confirmado-maiorIgual" href="#5"
+                                        onclick='maiorIgual()'>resultado</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="text-center">
-                            <a class="botao" id="confirmado-maiorIgual" href="#" onclick='maiorIgual()'>resultado</a>
-                        </div>
+
                     </div>
                     <div class="p-2 mt-3 bg-white m-3">
-                        <p class="cinza-claro p-2 m-3">Menor-Igual com JavaScript</p>
+                        <p class="cinza-claro p-2 m-3" id="6">Menor-Igual com JavaScript</p>
                         <div class="card m-3">
                             <div class="card-body">
                                 <p>Exemplo de uma comparação de menor-igual 2 <= 9=<strong id="resultado-menorIgual">
                                         Mostrando o
                                         resultado...</strong></p>
+                                <div class="text-center">
+                                    <a class="botao" id="confirmado-menorIgual" href="#6"
+                                        onclick='menorIgual()'>resultado</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="text-center">
-                            <a class="botao" id="confirmado-menorIgual" href="#" onclick='menorIgual()'>resultado</a>
-                        </div>
+
                     </div>
                 </div>
-                <h3 class="cinza-escuro text-center text-white p-2 m-3">Operadoes de atribuição</h3>
+                <h3 class="cinza-escuro text-center text-white p-2 m-3">Operadores de atribuição</h3>
                 <div class="col-lg-6">
                     <div class="p-2 mt-3 bg-white m-3">
-                        <p class="cinza-claro p-2 m-3">atribuição de adição JavaScript</p>
+                        <p class="cinza-claro p-2 m-3" id="7">Atribuição de adição JavaScript</p>
                         <div class="card m-3">
                             <div class="card-body">
                                 <p class="">Exemplo de uma atribuição de adição de 4 += 1= <strong
@@ -175,79 +184,91 @@
                                         </resultado>
                                     </strong>
                                 </p>
+                                <div class="text-center">
+                                    <a class="botao" id="confirmado-atAdicao" href="#7"
+                                        onclick='atAdicao()'>resultado</a>
+                                </div>
+
                             </div>
-                        </div>
-                        <div class="text-center">
-                            <a class="botao" id="confirmado-atAdicao" href="#" onclick='atAdicao()'>resultado</a>
                         </div>
                     </div>
                     <div class="p-2 mt-3 bg-white m-3">
-                        <p class="cinza-claro p-2 m-3">Diferente com JavaScript</p>
+                        <p class="cinza-claro p-2 m-3" id="8">Atribuição de subtração com JavaScript</p>
                         <div class="card m-3">
                             <div class="card-body">
-                                <p>Exemplo de uma comparação diferente de 4 != 2= <strong
-                                        id="resultado-diferente">Mostrando o
+                                <p>Exemplo de uma atribuição de subtração 4 -= 2 = <strong
+                                        id="resultado-atSub">Mostrando o
                                         resultado...</strong></p>
+                                <div class="text-center">
+                                    <a class="botao" id="confirmado-atSub" href="#8"
+                                        onclick='atSub()'>resultado</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="text-center">
-                            <a class="botao" id="confirmado-diferente" href="#" onclick='diferente()'>resultado</a>
-                        </div>
+
                     </div>
                     <div class="p-2 mt-3 bg-white m-3">
-                        <p class="cinza-claro p-2 m-3">Maior com JavaScript</p>
+                        <p class="cinza-claro p-2 m-3" id="9">Atribuição de multiplicação com JavaScript</p>
                         <div class="card m-3">
                             <div class="card-body">
-                                <p>Exemplo de uma comparação maior de 3 > 1= <strong id="resultado-maior">Mostrando o
+                                <p>Exemplo de uma atribuição de multiplicação de 4 *= 2 = <strong id="resultado-atMult">Mostrando o
                                         resultado...</strong>
                                 </p>
+                                <div class="text-center">
+                                    <a class="botao" id="confirmado-atMult" href="#9"
+                                    
+                                    onclick='atMult()'>resultado</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="text-center">
-                            <a class="botao" id="confirmado-maior" href="#" onclick='maior()'>resultado</a>
-                        </div>
+
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="p-2 mt-3 bg-white m-3">
-                        <p class="cinza-claro p-2 m-3">Menor com JavaScript</p>
+                        <p class="cinza-claro p-2 m-3" id="10">Atribuição de divisão com JavaScript</p>
                         <div class="card m-3">
                             <div class="card-body">
-                                <p>Exemplo de uma comparação menor de 2 < 9=<strong id="resultado-menor">Mostrando o
+                                <p>Exemplo de uma atribuição de divisão de 8/=4=<strong id="resultado-atDiv">Mostrando o
                                         resultado...</strong></p>
+                                <div class="text-center">
+                                    <a class="botao" id="confirmado-atDiv" href="#10" onclick='atDiv()'>resultado</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="text-center">
-                            <a class="botao" id="confirmado-menor" href="#" onclick='menor()'>resultado</a>
-                        </div>
+
                     </div>
 
                     <div class="p-2 mt-3 bg-white m-3">
-                        <p class="cinza-claro p-2 m-3">Maior-Igual com JavaScript</p>
+                        <p class="cinza-claro p-2 m-3" id="11">Atribuição de potenciação com JavaScript</p>
                         <div class="card m-3">
                             <div class="card-body">
-                                <p>Exemplo de uma comparação maior-igual de 3 >= 1= <strong
-                                        id="resultado-maiorIgual">Mostrando o resultado...
+                                <p>Exemplo de uma atribuição de potenciação de 4**=2=<strong
+                                        id="resultado-atPot">Mostrando o resultado...
                                         </resultado>
                                     </strong></p>
+                                <div class="text-center">
+                                    <a class="botao" id="confirmado-atPot" href="#11"
+                                        onclick='atPot()'>resultado</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="text-center">
-                            <a class="botao" id="confirmado-maiorIgual" href="#" onclick='maiorIgual()'>resultado</a>
-                        </div>
+
                     </div>
                     <div class="p-2 mt-3 bg-white m-3">
-                        <p class="cinza-claro p-2 m-3">Menor-Igual com JavaScript</p>
+                        <p class="cinza-claro p-2 m-3" id="12">Atribuição de resto com JavaScript</p>
                         <div class="card m-3">
                             <div class="card-body">
-                                <p>Exemplo de uma comparação de menor-igual 2 <= 9=<strong id="resultado-menorIgual">
+                                <p>Exemplo de uma atribuição de resto de 4%=2=<strong id="resultado-atRes">
                                         Mostrando o
                                         resultado...</strong></p>
+                                <div class="text-center">
+                                    <a class="botao" id="confirmado-atRes" href="#12"
+                                        onclick='atRes()'>resultado</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="text-center">
-                            <a class="botao" id="confirmado-menorIgual" href="#" onclick='menorIgual()'>resultado</a>
-                        </div>
+
                     </div>
                 </div>
         </article>
