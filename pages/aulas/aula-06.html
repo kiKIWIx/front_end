@@ -1,0 +1,199 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Prof Gustavo Ferreira">
+    <meta name="descripion" content="Página de introdução ao Desenvolviemento web - Aula 0">
+    <title>Aula 04 - BootStrap</title>
+    <link rel="stylesheet" href="../../css/estilo.css" type="text/css">
+    <link rel="stylesheet" href="../../css/botao.css" type="text/css">
+    <link rel="stylesheet" href="../../css/lista.css" type="text/css">
+    <link rel="stylesheet" href="../../css/bootstrap/style.css" type="text/css">
+    <link rel="stylesheet" href="../../css/tabela-claro.css" type="text/css">
+    <link rel="icon" href="../../img/Microcamp.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../../js/bootstrap/program.js"></script>
+    <script src="../../js/operadores-lógicos.js"></script>
+
+
+</head>
+
+<body>
+    <header class="">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="container-fluid">
+                <ul class="navbar-nav container">
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="http:microcamp.com">
+                            <img src="../../img/logo.jpg" style="width: 60px;" alt="Logo Microcamp" id="arredondar">
+                        </a>
+                    </li>
+                    <li class="nav-item text-white">
+                        <h3>04 - Implementando BootStrap</h3>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="row">
+        <nav class="col-lg-3 bg-purple">
+            <ul class="navbar-nav m-3">
+                <li class="nav-item">
+                    <a href="aula-01.html">
+                        <div class="botao-lista">
+                            Aula 01 - Git com HTML e CSS
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="aula-02.html">
+                        <div class="botao-lista">
+                            Aula 02 - Seletores CSS 3
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="aula-03.html">
+                        <div class="botao-lista">
+                            Aula 03 - Introdução a JS
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="aula-04.html">
+                        <div class="botao-lista">
+                            Aula 04 - BootStrap
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="aula-05.html">
+                        <div class="botao-lista">
+                            Aula 05 - Operadores em JavaScript
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="aula-06.html">
+                        <div class="botao-lista">
+                            Aula 06 - portas lógicas
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <article class="col-lg-9">
+            <h4 class="cinza-escuro text-white p-2 text-center m-3">Portas lógicas JavaScript</h4>
+            <div class="card m-3">
+                <div class="card-body">
+                    <div class="row p-2">
+                        <div class="col-lg-8">
+                            <h4 class="cinza-claro p-2">Definição de portas lógicas</h4>
+                            <p style="text-align: justify;" class="p-3 m-3">Portas lógicas ou operadores lógicos são
+                                formas de
+                                resultantes entre
+                                duas ou mais comparações entre expressões comparativas, onde o resultado
+                                deverá ser booleana (verdadeiro ou falso). Iremos conhecer as principais portas
+                                e qual os seus respectivos resultados para as específicas expressões comparativa.
+                                Veja alguns exemplos definidos abaixo.
+                            </p>
+                        </div>
+                        <div class="col-lg-4">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="#1">
+                                        <div class="botao-lista">
+                                            E - Porta And (&&)
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#2">
+                                        <div class="botao-lista">
+                                            Ou - Porta Or (||)
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#3">
+                                        <div class="botao-lista">
+                                            Não - Porta Not (!)
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#4">
+                                        <div class="botao-lista">
+                                            Exclusivo - Porta Xor (^)
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="card m-3">
+                        <div class="card-body">
+                            <h4 class="cinza p-2 text-white text-center" id="1">Porta lógica And (E)</h4>
+                            <p class="m-3" style="text-align: justify;">Essa porta retorna verdadeiro
+                                somente quando todas as entradas forem verdadeiras. Segue exemplo
+                                das entradas A e B e suas respectivas saídas R:</p>
+                           <div class="container">
+                            <table id="tabela-claro">
+                                <tr>
+                                    <th>
+                                        A
+                                    </th>
+                                    <th>
+                                        B
+                                    </th>
+                                    <th>
+                                        R
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td>V</td>
+                                    <td>V</td>
+                                    <td>V</td>
+                                </tr>
+                                <tr>
+                                    <td>V</td>
+                                    <td>F</td>
+                                    <td>V</td>
+                                </tr>
+                                <tr>
+                                    <td>F</td>
+                                    <td>V</td>
+                                    <td>F</td>
+                                </tr>
+                                <tr>
+                                    <td>F</td>
+                                    <td>F</td>
+                                    <td>F</td>
+                                </tr>
+                            </table>
+                           </div>
+                           <p class="m-3" style="text-align: justify;">
+                            ((5>=3) && (3 != 2)) = <b id="res-and">Mostrando resultado...</b>
+                            <div class="text-center">
+                                <a class="botao" id="conf-and" href="#2"
+                                    onclick='and()'>resultado</a>
+                            </div>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+        </article>
+    </section>
+    <footer class="text-center p-2 bg-dark text-white">
+        <p>Desenvolvido por Gabriel Oliveira</p>
+    </footer>
+</body>
+
+</html>
