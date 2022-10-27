@@ -1,5 +1,4 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -14,12 +13,12 @@ export default function Home() {
         <link rel="icon" href="./icon.png" type="image/x-icon" />
         <div className="container">
           <div className="conteudo cinza" id="arredondar">
-            <a href="microcamp.com.br" className="cinza">
-              <img className="cinza" id="arredondar" src="img/logo.jpg" type="jpg" alt="Logo Microcamp" />
-            </a>
+            <Link href="microcamp.com.br" className="cinza">
+              <img className="cinza" id="arredondar" src="/logo.jpg" type="jpg" alt="Logo Microcamp" />
+            </Link>
             <h1 className="cinza">Seja Bem-Vindo</h1>
             <p className="cinza-escuro" id="altera">Clique em começar para aprender! 👇</p>
-            <a className="botao" href="pages/aulas.js">Começar</a>
+            <Link className="botao" href="pages/aulas.js">Começar</Link>
           </div>
         </div>
       </div>
