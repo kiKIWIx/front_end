@@ -10,9 +10,9 @@ export default function Aulas() {
         <title>
           Curso de Desenvolvimento WEB
         </title>
-        <link rel="stylesheet" href="/estilo.css" type="text/css" />
-        <link rel="stylesheet" href="/tabela.css" type="text/css" />
-        <link rel="stylesheet" href="/botao.css" type="text/css" />
+        <link rel="stylesheet" href="../styles/estilo.css" type="text/css" />
+        <link rel="stylesheet" href="../styles/tabela.css" type="text/css" />
+        <link rel="stylesheet" href="../styles/botao.css" type="text/css" />
         <link rel="icon" href="./Icon.png" type="image/x-icon" />
         <div className="container">
           <div className="cinza"id="arredondar">
