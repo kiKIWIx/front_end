@@ -6,12 +6,12 @@ export default function Aula06(){
         <meta name="author" content="Prof Gustavo Ferreira" />
         <meta name="descripion" content="Página de introdução ao Desenvolviemento web - Aula 0" />
         <title>Aula 06 - Portas lógicas em JavaScript</title>
-        <link rel="stylesheet" href="../../css/estilo.css" type="text/css" />
-        <link rel="stylesheet" href="../../css/botao.css" type="text/css" />
-        <link rel="stylesheet" href="../../css/lista.css" type="text/css" />
-        <link rel="stylesheet" href="../../css/bootstrap/style.css" type="text/css" />
-        <link rel="stylesheet" href="../../css/tabela-claro.css" type="text/css" />
-        <link rel="icon" href="../../img/Microcamp.png" type="image/x-icon" />
+        <link rel="stylesheet" href="/estilo.css" type="text/css" />
+        <link rel="stylesheet" href="/botao.css" type="text/css" />
+        <link rel="stylesheet" href="/lista.css" type="text/css" />
+        <link rel="stylesheet" href="/bootstrap/style.css" type="text/css" />
+        <link rel="stylesheet" href="/tabela-claro.css" type="text/css" />
+        <link rel="icon" href="/Microcamp.png" type="image/x-icon" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <header className>
           <nav className="navbar navbar-expand-sm bg-dark navbar-dark">

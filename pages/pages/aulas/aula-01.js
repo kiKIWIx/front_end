@@ -6,11 +6,11 @@ export default function Aula01(){
         <meta name="author" content="Prof Gustavo Ferreira" />
         <meta name="descripion" content="Página de introdução ao Desenvolviemento web - Aula 0" />
         <title>Aula 01 - Git com HTML e CSS</title>
-        <link rel="stylesheet" href="../../css/estilo.css" type="text/css" />
-        <link rel="stylesheet" href="../../css/botao.css" type="text/css" />
-        <link rel="stylesheet" href="../../css/lista.css" type="text/css" />
-        <link rel="stylesheet" href="../../css/bootstrap/style.css" type="text/css" />
-        <link rel="stylesheet" href="../../css/tabela-claro.css" type="text/css" />
+        <link rel="stylesheet" href="==/estilo.css" type="text/css" />
+        <link rel="stylesheet" href="=/botao.css" type="text/css" />
+        <link rel="stylesheet" href="=/lista.css" type="text/css" />
+        <link rel="stylesheet" href="=/bootstrap/style.css" type="text/css" />
+        <link rel="stylesheet" href="=/tabela-claro.css" type="text/css" />
         <link rel="icon" href="../../img/Microcamp.png" type="image/x-icon" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <header className>
@@ -19,7 +19,7 @@ export default function Aula01(){
               <ul className="navbar-nav container">
                 <li className="nav-item">
                   <a className="navbar-brand" href="http:microcamp.com">
-                    <img src="../../img/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" id="arredondar" />
+                    <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" id="arredondar" />
                   </a>
                 </li>
                 <li className="nav-item text-white">
