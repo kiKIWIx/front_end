@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import StyleEstilo from "style/estilo.css"
-import StyleBotao from 'Style/botao.css'
+import StyleEstilo from "styles/estilo.css"
+import StyleBotao from 'styles/botao.css'
 
 export default function Home() {
   return (
