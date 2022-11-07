@@ -1,7 +1,4 @@
 import Link from 'next/link'
-import StyleEstilo from '../../styles/estilo.css'
-import StyleBotao from '../../styles/botao.css'
-import StyleTabela from '../../styles/tabela.css'
 
 export default function Aulas() {
   return (
@@ -13,9 +10,9 @@ export default function Aulas() {
         <title>
           Curso de Desenvolvimento WEB
         </title>
-        <link rel="stylesheet" href="../css/estilo.css" type="text/css" />
-        <link rel="stylesheet" href="../css/tabela.css" type="text/css" />
-        <link rel="stylesheet" href="../css/botao.css" type="text/css" />
+        <link rel="stylesheet" href="/estilo.css" type="text/css" />
+        <link rel="stylesheet" href="/tabela.css" type="text/css" />
+        <link rel="stylesheet" href="/botao.css" type="text/css" />
         <link rel="icon" href="./Icon.png" type="image/x-icon" />
         <div className="container">
           <div className="cinza"id="arredondar">
