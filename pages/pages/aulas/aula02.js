@@ -24,7 +24,7 @@ export default function Aula02(){
               <ul className="navbar-nav container">
                 <li className="nav-item">
                   <a className="navbar-brand" href="http:microcamp.com">
-                    <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" id="arredondar" />
+                  <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className={styleEstilo.arredondar} />
                   </a>
                 </li>
                 <li className="nav-item text-white">
@@ -39,42 +39,42 @@ export default function Aula02(){
             <ul className="navbar-nav m-3">
               <li className="nav-item">
                 <a href="aula01">
-                  <div className="botao-lista">
+                  <div className={styleEstilo.botaoLista} >
                     Aula 01 - Git com HTML e CSS
                   </div>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="aula02">
-                  <div className="botao-lista">
+                  <div className={styleEstilo.botaoLista} >
                     Aula 02 - Seletores CSS 3
                   </div>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="aula03">
-                  <div className="botao-lista">
+                  <div className={styleEstilo.botaoLista} >
                     Aula 03 - Introdução a JS
                   </div>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="aula04">
-                  <div className="botao-lista">
+                  <div className={styleEstilo.botaoLista} >
                     Aula 04 - BootStrap
                   </div>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="aula05">
-                  <div className="botao-lista">
+                  <div className={styleEstilo.botaoLista} >
                     Aula 05 - Operadores em JavaScript
                   </div>
                 </a>
               </li>
               <li className="nav-item">
                 <a href="aula06">
-                  <div className="botao-lista">
+                  <div className={styleEstilo.botaoLista} >
                     Aula 06 - portas lógicas
                   </div>
                 </a>
