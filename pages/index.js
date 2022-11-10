@@ -18,7 +18,7 @@ export default function Home() {
             <Link href="microcamp.com.br" className={styleEstilo.cinza}>
               <img className={[styleEstilo.cinza, styleEstilo.arredondar, styleEstilo.img].join(" ")} src="/logo.jpg" type="jpg" alt="Logo Microcamp" />
             </Link>
-            <h1 className={[styleEstilo.cinza, styleEstilo,h1].join(" ")} >Seja Bem-Vindo</h1>
+            <h1 className={[styleEstilo.cinza, styleEstilo.h1].join(" ")} >Seja Bem-Vindo</h1>
             <p className={[styleEstilo.cinzaEscuro, styleEstilo.p].join(" ")} id="altera">Clique em começar para aprender! 👇</p>
             <Link className={styleBotao.botao} href="pages/aulas.js">Começar</Link>
           </div>
