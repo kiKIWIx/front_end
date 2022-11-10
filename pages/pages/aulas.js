@@ -1,4 +1,7 @@
 import Link from 'next/link'
+import styleBotao from '../styles/botao.module.css'
+import styleEstilo from '../styles/estilo.module.css'
+import styleTabela from '../styles/tabela.module.css'
 
 export default function Aulas() {
   return (
@@ -9,19 +12,16 @@ export default function Aulas() {
         <meta name="descripion" content="Playlist das aulas de programação WEBs" />
         <title>
           Curso de Desenvolvimento WEB
-        </title>
-        <link rel="stylesheet" href="../styles/estilo.css" type="text/css" />
-        <link rel="stylesheet" href="../styles/tabela.css" type="text/css" />
-        <link rel="stylesheet" href="../styles/botao.css" type="text/css" />
+        </title>.
         <link rel="icon" href="./Icon.png" type="image/x-icon" />
-        <div className="container">
-          <div className="cinza"id="arredondar">
-            <Link href="microcamp.com.br" className="cinza">
-              <img src="/logo.jpg" alt="Logo Microcamp" className= "cinza" id="arredondar"/>
+        <div className={styleEstilo.container}>
+          <div className={[styleEstilo.cinza, styleEstilo.arredondar, styleEstilo.container].join(" ")}>
+            <Link href="microcamp.com.br" className={styleEstilo.cinza} >
+              <img src="/logo.jpg" alt="Logo Microcamp" className={[styleEstilo.img, styleEstilo.cinza, styleEstilo.arredondar].join(" ")} />
             </Link>
-            <h1 className="cinza">Bem vindo ao Curso de Programação! 💻</h1>
-            <p className="cinza-escuro">Clique na aula que deseja:</p> 
-            <table className="tabela">
+            <h1 className={[styleEstilo.cinza, styleEstilo.h1].join(" ")} >Bem vindo ao Curso de Programação! 💻</h1>
+            <p className={[styleEstilo.cinza-escuro, styleEstilo.p].join(" ")} >Clique na aula que deseja:</p> 
+            <table className={styleTabela.tabela} >
               <tbody><tr>
                   <th>Aula</th>
                   <th>Modulo</th>
@@ -29,42 +29,42 @@ export default function Aulas() {
                 </tr>
                 <tr>
                   <td>
-                    <Link className= "botao" href="/aulas/aula-01">01</Link>
+                    <Link className={styleBotao.botao} href="/aulas/aula-01">01</Link>
                   </td>
                   <td>HTML</td>
                   <td>Iniciando um Projeto WEB</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className= "botao" href="/aulas/aula-02">02</Link>
+                    <Link className={styleBotao.botao} href="/aulas/aula-02">02</Link>
                   </td>
                   <td>CSS3</td>
                   <td>Vinculando o CSS3 Externo</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className= "botao" href="/aulas/aula-03">03</Link>
+                    <Link className={styleBotao.botao} href="/aulas/aula-03">03</Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Alterando template com CSS3</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className= "botao" href="/aulas/aula-04">04</Link>
+                    <Link className={styleBotao.botao} href="/aulas/aula-04">04</Link>
                   </td>
                   <td>BootStrap</td>
                   <td>Implementando bootstrap</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className= "botao" href="/aulas/aula-05">05</Link>
+                    <Link className={styleBotao.botao} href="/aulas/aula-05">05</Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Operadores em JavaScript</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className= "botao" href="/aulas/aula-06">06</Link>
+                    <Link className={styleBotao.botao} href="/aulas/aula-06">06</Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Portas lógicas JavaScript</td>
