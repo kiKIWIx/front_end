@@ -1,7 +1,7 @@
 import styleEstilo from '../../../styles/estilo.module.css'
 import styleBotao from '../../../styles/botao.module.css'
 import styleLista from '../../../styles/lista.module.css'
-import styleTab from '../../../styles/tabela-clara.module.css'
+import styleTab from '../../../styles/tabela-claro.module.css'
 
 export default function Aula03(){
     return(
