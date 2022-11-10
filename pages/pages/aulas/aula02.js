@@ -19,11 +19,16 @@ export default function aula02(){
         <link rel="icon" href="../../img/Microcamp.png" type="image/x-icon" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <header className>
-          <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
-            <div className="container-fluid">
-              <ul className="navbar-nav container">
-                <li className="nav-item">
-                  <a className="navbar-brand" href="http:microcamp.com">
+          /**navbar navbar-expand-sm bg-dark navbar-dark */
+          <nav className="">
+            /**container-fluid */
+            <div className="">
+              /**navbar-nav container */
+              <ul className="">
+                /**nav-item */
+                <li className="">
+                  /**navbar-brand */
+                  <a className="" href="http:microcamp.com">
                   <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className={styleEstilo.arredondar} />
                   </a>
                 </li>
@@ -34,50 +39,59 @@ export default function aula02(){
             </div>
           </nav>
         </header>
-        <section className="row">
-          <nav className="col-lg-3 bg-purple">
-            <ul className="navbar-nav m-3">
-              <li className="nav-item">
-                <a href="aula01">
+        /**row */
+        <section className="">
+          /**col-lg-3 bg-purple */
+          <nav className={styleLista.nav} >
+            /**navbar-nav m-3 */
+            <ul className="">
+              /**nav-item */
+              <li className={styleLista.li}>
+                <link href="aula01">
                   <div className={styleEstilo.botaoLista} >
                     Aula 01 - Git com HTML e CSS
                   </div>
-                </a>
+                </link>
               </li>
-              <li className="nav-item">
-                <a href="aula02">
+              /**nav-item */
+              <li className={styleLista.li} >
+                <link href="/aula02">
                   <div className={styleEstilo.botaoLista} >
                     Aula 02 - Seletores CSS 3
                   </div>
-                </a>
+                </link>
               </li>
-              <li className="nav-item">
-                <a href="aula03">
+              /**nav-item */
+              <li className={styleLista.li} >
+                <link href="/aula03">
                   <div className={styleEstilo.botaoLista} >
                     Aula 03 - Introdução a JS
                   </div>
-                </a>
+                </link>
               </li>
-              <li className="nav-item">
-                <a href="aula04">
+              /**nav-item */
+              <li className={styleLista.li} >
+                <link href="/aula04">
                   <div className={styleEstilo.botaoLista} >
                     Aula 04 - BootStrap
                   </div>
-                </a>
+                </link>
               </li>
-              <li className="nav-item">
-                <a href="aula05">
+              /**nav-item */
+              <li className={styleLista.li} >
+                <link href="/aula05">
                   <div className={styleEstilo.botaoLista} >
                     Aula 05 - Operadores em JavaScript
                   </div>
-                </a>
+                </link>
               </li>
-              <li className="nav-item">
-                <a href="aula06">
+              /**nav-item */
+              <li className={styleLista.li} >
+                <link href="/aula06">
                   <div className={styleEstilo.botaoLista} >
                     Aula 06 - portas lógicas
                   </div>
-                </a>
+                </link>
               </li>
             </ul>
           </nav>
