@@ -47,7 +47,7 @@ export default function aula05(){
             <ul className="">
               /**nav-item */
               <li className={styleLista.li}>
-                <link href="aula01">
+                <link href="/pages/aulas/aula01">
                   <div className={styleEstilo.botaoLista} >
                     Aula 01 - Git com HTML e CSS
                   </div>
@@ -55,7 +55,7 @@ export default function aula05(){
               </li>
               /**nav-item */
               <li className={styleLista.li} >
-                <link href="/aula02">
+                <link href="/pages/aulas/aula02">
                   <div className={styleEstilo.botaoLista} >
                     Aula 02 - Seletores CSS 3
                   </div>
@@ -63,7 +63,7 @@ export default function aula05(){
               </li>
               /**nav-item */
               <li className={styleLista.li} >
-                <link href="/aula03">
+                <link href="/pages/aulas/aula03">
                   <div className={styleEstilo.botaoLista} >
                     Aula 03 - Introdução a JS
                   </div>
@@ -71,7 +71,7 @@ export default function aula05(){
               </li>
               /**nav-item */
               <li className={styleLista.li} >
-                <link href="/aula04">
+                <link href="/pages/aulas/aula04">
                   <div className={styleEstilo.botaoLista} >
                     Aula 04 - BootStrap
                   </div>
@@ -79,7 +79,7 @@ export default function aula05(){
               </li>
               /**nav-item */
               <li className={styleLista.li} >
-                <link href="/aula05">
+                <link href="/pages/aulas/aula05">
                   <div className={styleEstilo.botaoLista} >
                     Aula 05 - Operadores em JavaScript
                   </div>
@@ -87,7 +87,7 @@ export default function aula05(){
               </li>
               /**nav-item */
               <li className={styleLista.li} >
-                <link href="/aula06">
+                <link href="/pages/aulas/aula06">
                   <div className={styleEstilo.botaoLista} >
                     Aula 06 - portas lógicas
                   </div>

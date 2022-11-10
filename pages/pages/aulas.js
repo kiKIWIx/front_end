@@ -29,42 +29,42 @@ export default function Aulas() {
                 </tr>
                 <tr>
                   <td>
-                    <Link className={styleBotao.botao} href="/aulas/aula01">01</Link>
+                    <Link className={styleBotao.botao} href="/pages/aulas/aula01">01</Link>
                   </td>
                   <td>HTML</td>
                   <td>Iniciando um Projeto WEB</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className={styleBotao.botao} href="/aulas/aula02">02</Link>
+                    <Link className={styleBotao.botao} href="/pages/aulas/aula02">02</Link>
                   </td>
                   <td>CSS3</td>
                   <td>Vinculando o CSS3 Externo</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className={styleBotao.botao} href="/aulas/aula03">03</Link>
+                    <Link className={styleBotao.botao} href="/pages/aulas/aula03">03</Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Alterando template com CSS3</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className={styleBotao.botao} href="/aulas/aula04">04</Link>
+                    <Link className={styleBotao.botao} href="/pages/aulas/aula04">04</Link>
                   </td>
                   <td>BootStrap</td>
                   <td>Implementando bootstrap</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className={styleBotao.botao} href="/aulas/aula05">05</Link>
+                    <Link className={styleBotao.botao} href="/pages/aulas/aula05">05</Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Operadores em JavaScript</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className={styleBotao.botao} href="/aulas/aula06">06</Link>
+                    <Link className={styleBotao.botao} href="/pages/aulas/aula06">06</Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Portas lógicas JavaScript</td>
