@@ -17,19 +17,19 @@ export default function aula01(){
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <header>
           /***/
-          <nav className={[styleBoot.navbar, styleBoot.navbar-expand-sm, styleBoot.bg-dark, styleBoot.navbar-dark].join(" ")}>
-            /** */
-            <div className={styleBoot.container-fluid}>
-              /** */
-              <ul className={[styleBoot.navbar-nav, styleBoot.container].join(" ")}>
-                /** */
-                <li className={styleBoot.nav-item}>
-                  /** */
-                  <Link className={styleBoot.navbar-brand} href="http://microcamp.com">
-                    <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className={[styleEstilo.arredondar]} />
+          <nav className="navbar navbar-expand-sm, bg-dark, navbar-dark">
+          
+            <div className="container-fluid">
+            
+              <ul className="navbar-nav container">
+              
+                <li className="nav-item">
+                
+                  <Link className="navbar-brand" href="http://microcamp.com">
+                    <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className="styleEstilo.arredondar" />
                   </Link>
                 </li>
-                /** */
+              
                 <li className={[styleBoot.nav-item, styleBoot.text-white].join(" ")}>
                   <h4>Aula 01 - Git com HTML e CSS</h4>
                 </li>
