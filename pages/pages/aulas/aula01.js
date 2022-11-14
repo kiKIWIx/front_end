@@ -37,71 +37,55 @@ export default function aula01(){
           </nav>
         </header>
         <section className="row">
-          <div className="col-lg-3 bg-purple">
-          <nav className={styleLista.nav}>
+          <nav className="col-lg-3 bg-purple {styleLista.nav}">
             <ul className="navbar-nav m-3">
-              <div className="nav-item">
-                  <li className={styleLista.li}>
+                  <li className="nav-item{styleLista.li}">
                     <Link href="/pages/aulas//aula01">
                       <div className={styleBotao.botaoLista}>
                         Aula 01 - Git com HTML e CSS
                       </div>
                     </Link>
                   </li>
-              </div>
-              <div className="nav-item">
-                  <li className={styleLista.li}>
+                  <li className="nav-item{styleLista.li}">
                     <Link href="/pages/aulas//aula02">
                       <div className={styleBotao.botaoLista}>
                         Aula 02 - Seletores CSS 3
                       </div>
                     </Link>
                   </li>
-              </div>
-              <div className="nav-item">
-                  <li className={styleLista.li}>
+                  <li className="nav-item {styleLista.li}">
                     <Link href="/pages/aulas//aula03">
                       <div className={styleBotao.botaoLista}>
                         Aula 03 - Introdução ao JavaScript
                       </div>
                     </Link>
                   </li>
-              </div>
-              <div className="nav-item">
-              <li className={styleLista.li}>
+              <li className="nav-item {styleLista.li}">
                 <Link href="/pages/aulas//aula04">
                   <div className={styleBotao.botaoLista}>
                     Aula 04 - Implementando BootStrap
                   </div>
                 </Link>
               </li>
-              </div>
-              <div className="nav-item">
-                  <li className={styleLista.li}>
+              <li className="nav-item {styleLista.li}">
                     <Link href="/pages/aulas//aula05">
                       <div className={styleBotao.botaoLista}>
                         Aula 05 - Operadores em JavaScript
                       </div>
                     </Link>
                   </li>
-              </div>
-              <div className="nav-item">
-                  <li className={styleLista.li}>
+              <li className="nav-item {styleLista.li}">
                     <Link href="/pages/aulas//aula06">
                       <div className={styleBotao.botaoLista}>
                         Aula 06 - Portas Lógicas em JavaScript
                       </div>
                     </Link>
                   </li>
-              </div>
             </ul>
           </nav>
-          </div>
-          <div className="col-lg-9">
-              <article className={styleLista.article}>
+              <article className="col-lg-9 {styleLista.article}">
 
               </article>
-          </div>
         </section>
     <footer className="text-center p-2, bg-dark, text-white">
   <p>Desenvolvido por Gabriel Oliveira</p>
