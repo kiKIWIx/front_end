@@ -39,64 +39,71 @@ export default function aula01(){
         </header>
         /***/
         <section className={styleBoot.row}>
-          /***/
-          <nav className={[styleLista.nav, styleBoot.col-lg-3, styleBoot.bg-purple].join(" ")}>
-            /** */
-            <ul className={[styleBoot.navbar-nav, styleBoot.m-3]}>
-              /** */
-              <li className={[styleLista.li, styleBoot.nav-item].join(" ")}>
-                <Link href="/pages/aulas//aula01">
-                  <div className={styleBotao.botaoLista}>
-                    Aula 01 - Git com HTML e CSS
-                  </div>
-                </Link>
-              </li>
-              /** */
-              <li className={[styleLista.li, styleBoot.nav-item].join(" ")}>
-                <Link href="/pages/aulas//aula02">
-                  <div className={styleBotao.botaoLista}>
-                    Aula 02 - Seletores CSS 3
-                  </div>
-                </Link>
-              </li>
-              /** */
-              <li className={[styleLista.li, styleBoot.nav-item].join(" ")}>
-                <Link href="/pages/aulas//aula03">
-                  <div className={styleBotao.botaoLista}>
-                    Aula 03 - Introdução ao JavaScript
-                  </div>
-                </Link>
-              </li>
-              /** */
-              <li className={[styleLista.li, styleBoot.nav-item].join(" ")}>
+          <div className="col-lg-3 bg-purple">
+          <nav className={styleLista.nav}>
+            <ul className="navbar-nav m-3">
+              <div className="nav-item">
+                  <li className={styleLista.li}>
+                    <Link href="/pages/aulas//aula01">
+                      <div className={styleBotao.botaoLista}>
+                        Aula 01 - Git com HTML e CSS
+                      </div>
+                    </Link>
+                  </li>
+              </div>
+              <div className="nav-item">
+                  <li className={styleLista.li}>
+                    <Link href="/pages/aulas//aula02">
+                      <div className={styleBotao.botaoLista}>
+                        Aula 02 - Seletores CSS 3
+                      </div>
+                    </Link>
+                  </li>
+              </div>
+              <div className="nav-item">
+                  <li className={styleLista.li}>
+                    <Link href="/pages/aulas//aula03">
+                      <div className={styleBotao.botaoLista}>
+                        Aula 03 - Introdução ao JavaScript
+                      </div>
+                    </Link>
+                  </li>
+              </div>
+              <div className="nav-item">
+              <li className={styleLista.li}>
                 <Link href="/pages/aulas//aula04">
                   <div className={styleBotao.botaoLista}>
                     Aula 04 - Implementando BootStrap
                   </div>
                 </Link>
               </li>
-              /** */
-              <li className={[styleLista.li, styleBoot.nav-item].join(" ")}>
-                <Link href="/pages/aulas//aula05">
-                  <div className={styleBotao.botaoLista}>
-                    Aula 05 - Operadores em JavaScript
-                  </div>
-                </Link>
-              </li>
-              /** */
-              <li className={[styleLista.li, styleBoot.nav-item].join(" ")}>
-                <Link href="/pages/aulas//aula06">
-                  <div className={styleBotao.botaoLista}>
-                    Aula 06 - Portas Lógicas em JavaScript
-                  </div>
-                </Link>
-              </li>
+              </div>
+              <div className="nav-item">
+                  <li className={styleLista.li}>
+                    <Link href="/pages/aulas//aula05">
+                      <div className={styleBotao.botaoLista}>
+                        Aula 05 - Operadores em JavaScript
+                      </div>
+                    </Link>
+                  </li>
+              </div>
+              <div className="nav-item">
+                  <li className={styleLista.li}>
+                    <Link href="/pages/aulas//aula06">
+                      <div className={styleBotao.botaoLista}>
+                        Aula 06 - Portas Lógicas em JavaScript
+                      </div>
+                    </Link>
+                  </li>
+              </div>
             </ul>
           </nav>
-          /** */
-          <article className={[styleLista.article, styleBoot.col-lg-9].join(" ")}>
+          </div>
+          <div className="col-lg-9">
+              <article className={styleLista.article}>
 
-          </article>
+              </article>
+          </div>
         </section>
     <footer className={[styleBoot.text-center, styleBoot.p-2, styleBoot.bg-dark, styleBoot.text-white].join(" ")}>
   <p>Desenvolvido por Gabriel Oliveira</p>
