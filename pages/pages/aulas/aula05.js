@@ -99,7 +99,7 @@ export default function aula05(){
               </article>
           </div>
         </section>
-    <footer className="text-center p-20 bg-dark text-white">
+    <footer className="text-center p-2 bg-dark text-white">
   <p>Desenvolvido por Gabriel Oliveira</p>
 </footer>
 </div>
