@@ -17,7 +17,7 @@ export default function aula03(){
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
         <header>
-          <nav className="navbar navbar-expand-sm, bg-dark, navbar-dark">
+          <nav className="navbar navbar-expand-sm bg-dark, navbar-dark">
             <div className="container-fluid">
             
               <ul className="navbar-nav container">
@@ -103,7 +103,7 @@ export default function aula03(){
               </article>
           </div>
         </section>
-    <footer className="text-center p-2, bg-dark, text-white">
+    <footer className="text-center p-2 bg-dark text-white">
   <p>Desenvolvido por Gabriel Oliveira</p>
 </footer>
 </div>
