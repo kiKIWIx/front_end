@@ -15,12 +15,12 @@
     border-radius: 20px;
     margin-left: 5;
     font-size: 12pt;
-    
-    
 }
+
 .botao:hover{
     background-color: #05998d;
 }
-.botao-lista:hover{
+
+.botaoLista:hover{ 
     background-color: #05998d;
 }

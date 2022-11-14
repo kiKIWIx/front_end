@@ -1,8 +1,7 @@
-
-
 .body{
     background-color: black;
     color:white;
+    height: 100%;
 }
 
 .h1{
@@ -18,9 +17,9 @@
    height: auto;
 }
 
-.article-p{
+.article p{
     text-align: left;
-    margin-left: 25px;
+    margin-left: 25;
 }
 
 .conteudo{
@@ -43,16 +42,15 @@
 .cinzaEscuro{
     background-color: #404040;
 }
-
 .cinzaClaro{
     background-color: #ddd;
-    color: black;
+    color:black;
     text-align: left;
     margin-left: 25;
     margin-right: 25;
     padding-left: 10;
-}
 
+}
 .arredondar{
     border-radius: 20px 20px 20px 20px;
 }
