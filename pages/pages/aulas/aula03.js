@@ -17,18 +17,14 @@ export default function aula03(){
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
         <header>
-          <nav className="navbar navbar-expand-sm bg-dark, navbar-dark">
+          <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
             <div className="container-fluid">
-            
               <ul className="navbar-nav container">
-              
                 <li className="nav-item">
-                
                   <Link className="navbar-brand" href="http://microcamp.com">
                     <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className="styleEstilo.arredondar" />
                   </Link>
                 </li>
-              
                 <li className="nav-item text-white">
                   <h4>Aula 03 - Introdução ao JavaScript</h4>
                 </li>
