@@ -105,7 +105,7 @@ export default function aula01(){
               </article>
           </div>
         </section>
-    <footer className={[styleBoot.text-center, styleBoot.p-2, styleBoot.bg-dark, styleBoot.text-white].join(" ")}>
+    <footer className="text-center p-2, bg-dark, text-white">
   <p>Desenvolvido por Gabriel Oliveira</p>
 </footer>
 </div>
