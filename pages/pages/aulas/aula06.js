@@ -6,7 +6,7 @@ import styleTab from '../../../styles/tabela-clara.module.css'
 
 
 export default function aula06(){
-    return(
+    
         <div>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -206,5 +206,5 @@ export default function aula06(){
   <p>Desenvolvido por Gabriel Oliveira</p>
 </footer>
 </div>
-);
+
 }

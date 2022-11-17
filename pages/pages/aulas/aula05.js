@@ -6,7 +6,7 @@ import styleTab from '../../../styles/tabela-clara.module.css'
 
 
 export default function aula05(){
-    return(
+    
         <div>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -95,7 +95,112 @@ export default function aula05(){
           </div>
           <div className="col-lg-9">
               <article className={styleLista.article}>
-
+              <h3 className="cinza-escuro text-center text-white p-2 m-3">Operadoes aritméticos</h3>
+        <div className="row">
+          <div className="col-lg-6">
+            <div className="p-2 mt-3 bg-white m-3">
+              <h4 className="cinza-claro p-2 m-3">01 Adição com JavaScript</h4>
+              <div className="card m-3">
+                <div className="card-body">
+                  <p className>Exemplo de uma soma de 2+2= <strong id="resultado">Mostrando o resultado...
+                    </strong>
+                  </p>
+                </div>
+              </div>
+              <div className="text-center">
+                <a className="botao" id="confirmado-ad" href="#" onclick="soma()">resultado</a>
+              </div>
+            </div>
+            <div className="p-2 mt-3 bg-white m-3">
+              <h3 className="cinza-claro p-2 m-3">02 Multiplicação com JavaScript</h3>
+              <div className="card m-3">
+                <div className="card-body">
+                  <p>Exemplo de uma multiplicacao de 2*2= <strong id="resultado2">Mostrando o
+                      resultado...</strong></p>
+                </div>
+              </div>
+              <div className="text-center">
+                <a className="botao" id="confirmado-mu" href="#" onclick="multiplicacao()">resultado</a>
+              </div>
+            </div>
+            <div className="p-2 mt-3 bg-white m-3">
+              <div className="card">
+                <div className="card-body">
+                  <h3>03 Subtração com JavaScript</h3>
+                  <p>Exemplo de uma subtração de 5-3= <strong id="resultado3">Mostrando o
+                      resultado...</strong>
+                  </p>
+                </div>
+              </div>
+              <div className="text-center">
+                <a className="botao" id="confirmado-sub" href="#" onclick="subtracao()">resultado</a>
+              </div>
+            </div>
+            <div className="p-2 mt-3 bg-white m-3">
+              <h3>04 Divisão com JavaScript</h3>
+              <div className="card">
+                <div className="card-body">
+                  <p>Exemplo de uma divisão de 8/2= <strong id="resultado4">Mostrando o
+                      resultado...</strong></p>
+                </div>
+              </div>
+              <div className="text-center">
+                <a className="botao" id="confirmado-div" href="#" onclick="divisao()">resultado</a>
+              </div>
+            </div> 
+          </div>
+          <div className="col-lg-6">
+            <div className="p-2 mt-3 bg-white m-3">
+              <h3>05 Exponenciação com JavaScript</h3>
+              <div className="card">
+                <div className="card-body">
+                  <p>Exemplo de uma soma de 2**3= <strong id="resultado-ex">Mostrando o resultado...
+                    </strong></p>
+                </div>
+              </div>
+              <div className="text-center">
+                <a className="botao" id="confirmado-ex" href="#" onclick="exponenciacao()">resultado</a>
+              </div>
+            </div>
+            <div className="p-2 mt-3 bg-white m-3">
+              <h3>06 Resto com JavaScript</h3>
+              <div className="card">
+                <div className="card-body">
+                  <p>Exemplo de uma multiplicacao de 5%2= <strong id="resultado-res">Mostrando o
+                      resultado...</strong></p>
+                </div>
+              </div>
+              <div className="text-center">
+                <a className="botao" id="confirmado-res" href="#" onclick="resto()">resultado</a>
+              </div>                    
+              <div className="p-2 mt-3 bg-white">
+                <h3>07 Incrementação com JavaScript</h3>
+                <div className="card">
+                  <div className="card-body">
+                    <p>Exemplo de uma subtração de 5-3= <strong id="resultado-inc">Mostrando o
+                        resultado...</strong>
+                    </p></div>
+                </div>
+                <p />
+                <div className="text-center">
+                  <a className="botao" id="confirmado-inc" href="#" onclick="incrementacao()">resultado</a>
+                </div>
+              </div>
+              <div className="p-2 mt-3 bg-white m-3">
+                <h3>08 Decrementação com JavaScript</h3>
+                <div className="card">
+                  <div className="card-body">
+                    <p>Exemplo de uma divisão de 8/2= <strong id="resultado-dec">Mostrando o
+                        resultado...</strong>
+                    </p>
+                  </div>
+                </div>
+                <div className="text-center">
+                  <a className="botao" id="confirmado-dec" href="#" onclick="decrementacao()">resultado</a>
+                </div>
+              </div>
+            </div>
+          </div></div>
               </article>
           </div>
         </section>
@@ -103,5 +208,5 @@ export default function aula05(){
   <p>Desenvolvido por Gabriel Oliveira</p>
 </footer>
 </div>
-);
+
 }
