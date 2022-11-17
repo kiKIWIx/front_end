@@ -200,7 +200,8 @@ export default function aula05(){
                 </div>
               </div>
             </div>
-          </div></div>
+          </div> 
+          </div>
               </article>
           </div>
         </section>
