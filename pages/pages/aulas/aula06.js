@@ -22,7 +22,7 @@ export default function aula06(){
               <ul className="navbar-nav container">
                 <li className="nav-item">
                   <Link className="navbar-brand" href="http://microcamp.com">
-                    <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className={[styleEstilo.arredondar]} />
+                  <img className={[styleEstilo.cinza, styleEstilo.arredondar,styleEstilo.img].join(" ")} src="/logo.jpg" type="jpg" alt="Logo Microcamp" />
                   </Link>
                 </li>
                 <li className="nav-item text-white">
@@ -210,7 +210,7 @@ export default function aula06(){
           </div>
         </section>
     <footer className="text-center p-2 bg-dark text-white">
-  <p>Desenvolvido por Gustavo Ferreira</p>
+  <p>Desenvolvido por Gabriel Oliveira</p>
 </footer>
 </div>
 );
