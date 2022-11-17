@@ -3,9 +3,8 @@ import styleEstilo from '../../../styles/estilo.module.css'
 import styleBotao from '../../../styles/botao.module.css'
 import styleLista from '../../../styles/lista.module.css'
 
-
 export default function aula05(){
-    
+    return(
         <div>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,16 +12,16 @@ export default function aula05(){
         <meta name="descripion" content="Página de introdução ao Desenvolviemento web - Aula 05" />
         <title>Aula 05 - Operadores em JavaScript</title>
         <link rel="icon" href="/icon.png" type="image/x-icon" />
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
-        <script src="../../../js/operadores-aritmeticos.js"></script>
+        <script src="../../../js/operadores-aritméticos.js"></script>
         <header>
           <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
             <div className="container-fluid">
               <ul className="navbar-nav container">
                 <li className="nav-item">
                   <Link className="navbar-brand" href="http://microcamp.com">
-                    <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className="styleEstilo.arredondar" />
+                    <img src="/logo.jpg" style={{width: '60px'}} alt="Logo Microcamp" className={[styleEstilo.arredondar]} />
                   </Link>
                 </li>
                 <li className="nav-item text-white">
@@ -34,9 +33,9 @@ export default function aula05(){
         </header>
         <section className="row">
           <div className="col-lg-3 bg-purple">
-          <nav className={styleLista.nav}>
-            <ul className="navbar-nav m-3">
-              <div className="nav-item">
+            <nav className={styleLista.nav}>
+              <ul className="navbar-nav m-3">
+                <div className="nav-item">
                   <li className={styleLista.li}>
                     <Link href="/pages/aulas//aula01">
                       <div className={styleBotao.botaoLista}>
@@ -44,8 +43,8 @@ export default function aula05(){
                       </div>
                     </Link>
                   </li>
-              </div>
-              <div className="nav-item">
+                </div>
+                <div className="nav-item">
                   <li className={styleLista.li}>
                     <Link href="/pages/aulas//aula02">
                       <div className={styleBotao.botaoLista}>
@@ -53,8 +52,8 @@ export default function aula05(){
                       </div>
                     </Link>
                   </li>
-              </div>
-              <div className="nav-item">
+                </div>
+                <div className="nav-item">
                   <li className={styleLista.li}>
                     <Link href="/pages/aulas//aula03">
                       <div className={styleBotao.botaoLista}>
@@ -62,17 +61,17 @@ export default function aula05(){
                       </div>
                     </Link>
                   </li>
-              </div>
-              <div className="nav-item">
-              <li className={styleLista.li}>
-                <Link href="/pages/aulas//aula04">
-                  <div className={styleBotao.botaoLista}>
-                    Aula 04 - Implementando BootStrap
-                  </div>
-                </Link>
-              </li>
-              </div>
-              <div className="nav-item">
+                </div>
+                <div className="nav-item">
+                  <li className={styleLista.li}>
+                    <Link href="/pages/aulas//aula04">
+                      <div className={styleBotao.botaoLista}>
+                        Aula 04 - Implementando BootStrap
+                      </div>
+                    </Link>
+                  </li>
+                </div>
+                <div className="nav-item">
                   <li className={styleLista.li}>
                     <Link href="/pages/aulas//aula05">
                       <div className={styleBotao.botaoLista}>
@@ -80,8 +79,8 @@ export default function aula05(){
                       </div>
                     </Link>
                   </li>
-              </div>
-              <div className="nav-item">
+                </div>
+                <div className="nav-item">
                   <li className={styleLista.li}>
                     <Link href="/pages/aulas//aula06">
                       <div className={styleBotao.botaoLista}>
@@ -89,222 +88,151 @@ export default function aula05(){
                       </div>
                     </Link>
                   </li>
-              </div>
-            </ul>
-          </nav>
+                </div>
+              </ul>
+            </nav>
           </div>
           <div className="col-lg-9">
-              <article className={styleLista.article}>
-              <h3 className="cinza-escuro text-center text-white p-2 m-3">Operadores Comparativos JavaScript</h3>
-        <div className="row">
-          <div className="col-lg-6">
-            <div className="p-2 bg-white m-3">
-              <p className="cinza-claro p-2 m-3" id={1}>01 - Realizando Comparação com Javascript</p>
-              <div className="card m-3">
-                <div className="card-body">
-                  <p className>Exemplo de uma comparação de 2 == 2 = <strong id="resultado-igual">Mostrando
-                      o
-                      resultado...
-                    </strong>
-                  </p>
-                  <div className="text-center">
-                    <a className={styleBotao.botao} id="confirmado-igual" href="#1" onclick="igual()">Resultado</a>
+            <article className={styleLista.article}>
+              <div className={styleEstilo.cinzaEscuro}>
+              <h3 className="text-center text-white p-2 m-3">Operadores Aritiméticos JavaScript</h3>
+              </div>
+              <div className="row m-3">
+                <div className="col-lg-6">
+                  <div className="p-2 mt-3 bg-white m-3">
+                    <div className={styleEstilo.cinzaClaro}>
+                      <h4 className="p-2 m-3">01 - Realizando Adição com Javascript</h4>
+                    </div>
+                    <div className="card m-3">
+                      <div className="card-body">
+                        <p className>Exemplo de uma adição de 2 + 2 = <strong id="resultado-adicao">Mostrando o
+                            resultado...
+                          </strong>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="text-center">
+                      <a className={styleBotao.botao} id="confirmado-adicao" href="#" onclick="adicao()">Resultado</a>
+                    </div>
+                  </div>
+                  <div className="p-2 mt-3 bg-white m-3">
+                    <div className={styleEstilo.cinzaClaro}>
+                      <h4 className="p-2 m-3">02 - Realizando Subtração com Javascript</h4>
+                    </div>
+                    <div className="card m-3">
+                      <div className="card-body">
+                        <p className>Exemplo de uma subtração de 4 - 2 = <strong id="resultado-subtracao">Mostrando o
+                            resultado...
+                          </strong></p>
+                      </div>
+                    </div>
+                    <div className="text-center">
+                      <a className={styleBotao.botao} id="confirmado-subtracao" href="#" onclick="subtracao()">Resultado</a>
+                    </div>
+                  </div>
+                  <div className="p-2 mt-3 bg-white m-3">
+                    <div className={styleEstilo.cinzaClaro}>
+                      <h4 className="p-2 m-3">03 - Realizando Multiplicação com Javascript</h4>
+                    </div>
+                    <div className="card m-3">
+                      <div className="card-body">
+                        <p className>Exemplo de uma multiplicação de 3 * 3 = <strong id="resultado-multiplicacao">Mostrando o resultado...
+                          </strong>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="text-center">
+                      <a className={styleBotao.botao} id="confirmado-multiplicacao" href="#" onclick="multiplicacao()">Resultado</a>
+                    </div>
+                  </div>
+                  <div className="p-2 mt-2 bg-white m-3">
+                    <div className={styleEstilo.cinzaClaro}>
+                      <h4 className=" p-2 m-3">04 - Realizando Divisão com Javascript</h4>
+                    </div>
+                    <div className="card m-3">
+                      <div className="card-body">
+                        <p className>Exemplo de uma divisão de 8 / 2 = <strong id="resultado-divisao">Mostrando o
+                            resultado...
+                          </strong>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="text-center">
+                      <a className={styleBotao.botao} id="confirmado-divisao" href="#" onclick="divisao()">Resultado</a>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="p-2 mt-3 bg-white m-3">
+                    <div className={styleEstilo.cinzaClaro}>
+                      <h4 className="p-2 m-3">05 - Realizando Exponênciação com Javascript</h4>
+                    </div>
+                    <div className="card m-3">
+                      <div className="card-body">
+                        <p className>Exemplo de uma exponênciação de 2 ** 3 = <strong id="resultado-expo">Mostrando o
+                            resultado...
+                          </strong>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="text-center">
+                      <a className={styleBotao.botao} id="confirmado-expo" href="#" onclick="exponenciacao()">Resultado</a>
+                    </div>
+                  </div>
+                  <div className="p-2 mt-3 bg-white m-3">
+                    <div className={styleEstilo.cinzaClaro}>
+                      <h4 className="p-2 m-3">06 - Realizando Resto com Javascript</h4>
+                    </div>
+                    <div className="card m-3">
+                      <div className="card-body">
+                        <p className>Exemplo de um resto de 5 / 2 = <strong id="resultado-modo">Mostrando o
+                            resultado...
+                          </strong></p>
+                      </div>
+                    </div>
+                    <div className="text-center">
+                      <a className={styleBotao.botao} id="confirmado-modo" href="#" onclick="resto()">Resultado</a>
+                    </div>
+                  </div>
+                  <div className="p-2 mt-3 bg-white m-3">
+                    <div className={styleEstilo.cinzaClaro}>
+                      <h4 className="p-2 m-3">07 - Realizando Incrementação com Javascript</h4>
+                    </div>
+                    <div className="card m-3">
+                      <div className="card-body">
+                        <p className>Exemplo de uma incrementação de 5 = <strong id="resultado-inc">Mostrando o
+                            resultado...
+                          </strong></p>
+                      </div>
+                    </div>
+                    <div className="text-center">
+                      <a className={styleBotao.botao} id="confirmado-inc" href="#" onclick="incrementacao()">Resultado</a>
+                    </div>
+                  </div>
+                  <div className="p-2 mt-3 bg-white m-3">
+                    <div className={styleEstilo.cinzaClaro}>
+                      <h4 className="p-2 m-3">08 - Realizando Decrementação com Javascript</h4>
+                    </div>
+                    <div className="card m-3">
+                      <div className="card-body">
+                        <p className>Exemplo de uma decrementação de 5 = <strong id="resultado-dec">Mostrando o
+                            resultado...
+                          </strong>
+                        </p>
+                      </div>
+                    </div>
+                    <div className="text-center">
+                      <a className={styleBotao.botao} id="confirmado-dec" href="#" onclick="decrementacao()">Resultado</a>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="p-2 bg-white m-3">
-              <div className={styleEstilo.cinzaClaro}>
-              <p className="p-2 m-3" id={2}>02 - Realizando Diferença com Javascript</p>
-              </div>
-              <div className="card m-3">
-                <div className="card-body">
-                  <p className>Exemplo de uma diferença de 4 != 2 = <strong id="resultado-diferente">Mostrando o
-                      resultado...
-                    </strong></p>
-                  <div className="text-center">
-                    <a className={styleBotao.botao} id="confirmado-diferente" href="#2" onclick="diferente()">Resultado</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="p-2 bg-white m-3">
-              <div className={styleEstilo.cinzaClaro}>
-              <p className=" p-2 m-3" id={3}>03 - Realizando Maior com Javascript</p>
-              </div>
-              <div className="card m-3">
-                <div className="card-body">
-                  <p className>Exemplo de uma comparação maior de 3 &gt; 1 = <strong id="resultado-maior">Mostrando o resultado...
-                    </strong>
-                  </p>
-                  <div className="text-center">
-                    <a className={styleBotao.botao} id="confirmado-maior" href="#3" onclick="maior()">Resultado</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="p-2 bg-white m-3">
-              <div className={styleEstilo.cinzaClaro}>
-              <p className=" p-2 m-3" id={4}>04 - Realizando Menor com Javascript</p>
-              </div>
-              <div className="card m-3">
-                <div className="card-body">
-                  <p className>Exemplo de uma comparação menor de 2 &lt; 9 = <strong id="resultado-menor">
-                      Mostrando o
-                      resultado...
-                    </strong>
-                  </p>
-                  <div className="text-center">
-                    <a className={styleBotao.botao} id="confirmado-menor" href="#4" onclick="menor()">Resultado</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="p-2 bg-white m-3">
-              <div className={styleEstilo.cinzaClaro}>
-              <p className=" p-2 m-3" id={5}>05 - Realizando Maior Igual com Javascript</p>
-              </div>
-              <div className="card m-3">
-                <div className="card-body">
-                  <p className>Exemplo de uma comparação maior ou igual de 3 &gt;= 1 = <strong id="resultado-maiorIgual">Mostrando o
-                      resultado...
-                    </strong>
-                  </p>
-                  <div className="text-center">
-                    <a className={styleBotao.botao} id="confirmado-maiorIgual" href="#5" onclick="maiorIgual()">Resultado</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="p-2 bg-white m-3">
-              <div className={styleEstilo.cinzaClaro}>
-              <p className=" p-2 m-3" id={6}>06 - Realizando Menor Igual com Javascript</p>
-              </div>
-              <div className="card m-3">
-                <div className="card-body">
-                  <p className>Exemplo de uma comparação menor de 2 &lt; 9 = <strong id="resultado-menorIgual">
-                      Mostrando o
-                      resultado...
-                    </strong></p>
-                  <div className="text-center">
-                    <a className={styleBotao.botao} id="confirmado-menorIgual" href="#6" onclick="menorIgual()">Resultado</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <h3 className="cinza-escuro text-center text-white p-2 m-3">Operadores de Atribuição JavaScript</h3>
-        <div className="row">
-          <div className="col-lg-6">
-            <div className="p-2 bg-white m-3" id={7}>
-              <div className={styleEstilo.cinzaClaro}>
-              <p className="p-2 m-3">01 - Realizando Adição com Atribuição em Javascript</p>
-              </div>
-              <div className="card m-3">
-                <div className="card-body">
-                  <p className>Exemplo de uma adição com atribuição de 2 += 4 = <strong id="res-atAd">
-                      Mostrando o
-                      resultado...
-                    </strong></p>
-                  <div className="text-center">
-                    <a className={styleBotao.botao} id="conf-atAd" href="#7" onclick="atAd()">Resultado</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="p-2 bg-white m-3">
-              <div className={styleEstilo.cinzaClaro}>
-              <p className=" p-2 m-3" id={8}>02 - Realizando Subtração com Atribuição em Javascript</p>
-              </div>
-              <div className="card m-3">
-                <div className="card-body">
-                  <p className>Exemplo de uma subtração com atribuição de 5 -= 2 = <strong id="res-atSub">
-                      Mostrando o
-                      resultado...
-                    </strong></p>
-                  <div className="text-center">
-                    <a className={styleBotao.botao} id="conf-atSub" href="#8" onclick="atSub()">Resultado</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="p-2 bg-white m-3">
-              <div className={styleEstilo.cinzaClaro}>
-              <p className=" p-2 m-3" id={9}>03 - Realizando Multiplicação com Atribuição em Javascript</p>
-              </div>
-              <div className="card m-3">
-                <div className="card-body">
-                  <p className>Exemplo de uma multiplicação com atribuição de 2 *= 2 = <strong id="res-atMult">
-                      Mostrando o
-                      resultado...
-                    </strong></p>
-                  <div className="text-center">
-                    <a className={styleBotao.botao} id="conf-atMult" href="#9" onclick="atMult()">Resultado</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <div className="p-2 mt-3 bg-white m-3">
-              <div className={styleEstilo.cinzaClaro}>
-              <p className="p-2 m-3" id={10}>04 - Realizando Divisão com Atribuição em Javascript</p>
-              </div>
-              <div className="card m-3">
-                <div className="card-body">
-                  <p className>Exemplo de uma divisão com atribuição de 10 /= 2 = <strong id="res-atDiv">
-                      Mostrando o
-                      resultado...
-                    </strong></p>
-                  <div className="text-center">
-                    <a className={styleBotao.botao} id="conf-atDiv" href="#10" onclick="atDiv()">Resultado</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="p-2 mt-3 bg-white m-3">
-              <div className={styleEstilo.cinzaClaro}>
-              <p className="p-2 m-3" id={11}>05 - Realizando Potenciação com Atribuição em Javascript</p>
-              </div>
-              <div className="card m-3">
-                <div className="card-body">
-                  <p className>Exemplo de uma potenciação com atribuição de 5 **= 2 = <strong id="res-atPot">
-                      Mostrando o
-                      resultado...
-                    </strong></p>
-                  <div className="text-center">
-                    <a className={styleBotao.botao} id="conf-atPot" href="#11" onclick="atPot()">Resultado</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="p-2 mt-3 bg-white m-3">
-              <div className={styleEstilo.cinzaClaro}>
-              <p className=" p-2 m-3" id={12}>01 - Realizando Resto com Atribuição em Javascript</p>
-              </div>
-              <div className="card m-3">
-                <div className="card-body">
-                  <p className>Exemplo de um resto com atribuição de 7 %= 2 = <strong id="res-atRes">
-                      Mostrando o
-                      resultado...
-                    </strong></p>
-                  <div className="text-center">
-                    <a className={styleBotao.botao} id="conf-atRes" href="#12" onclick="atRes()">Resultado</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-              </article>
+            </article>
           </div>
         </section>
     <footer className="text-center p-2 bg-dark text-white">
-  <p>Desenvolvido por Gabriel Oliveira</p>
+  <p>Desenvolvido por Gustavo Ferreira</p>
 </footer>
 </div>
-
+);
 }
