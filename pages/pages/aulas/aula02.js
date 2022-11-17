@@ -119,21 +119,21 @@ export default function aula02(){
         </div>
         <div className="row">
           <div className="col-lg-6">
-            <div className={styleEstilo.cinzaEscuro}>
-            <p className=" p-1 text-center m-3">01 - Seletor de Elemento CSS</p>
-            </div>
             <div className="card m-3">
               <div className="card-body">
+              <div className={styleEstilo.cinzaEscuro}>
+            <p className=" p-1 text-center m-3">01 - Seletor de Elemento CSS</p>
+            </div>
                 <p>O seletor de elemento seleciona elementos HTML com base no nome do elemento.</p>
               </div>
             </div>
           </div>
           <div className="col-lg-6">
-            <div className={styleEstilo.cinzaEscuro}>
-            <p className=" p-1 text-center m-3">02 - Seletor de Classe CSS</p>
-            </div>
             <div className="card m-3">
               <div className="card-body">
+              <div className={styleEstilo.cinzaEscuro}>
+            <p className=" p-1 text-center m-3">02 - Seletor de Classe CSS</p>
+            </div>
                 <p>O seletor de classe seleciona elementos HTML com um atributo de classe específico.
                 </p>
                 <p>Para selecionar elementos com uma classe específica, escreva um caractere ponto (.),
