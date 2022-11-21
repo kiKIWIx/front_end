@@ -319,13 +319,12 @@ export default function aula06(){
                       </div>
                     </div>
                   </div>
-                </div>
                 <div className="col-xl-6">
-                      <div className="card m-3">
-                        <div className="card-body">
-                        <div>
+                  <div className="card m-3">
+                    <div className="card-body">
+                      <div>
                         <h4 className="cinza text-white p-2 text-center" id={1}>Porta Lógica Not (Não)</h4>
-                        </div>
+                      </div>
                         <p className="m-3" style={{textAlign: 'justify'}}>Essa porta retorna falso somente quando uma das entradas
                           for verdadeira e retorna verdadeiro quando a entrada for falsa. Segue exemplo das entradas A e B e sua respectiva saída R: </p>
                         <div className="container">
@@ -355,9 +354,10 @@ export default function aula06(){
                             resultado...</b>
                         </p>
                         <div className="text-center">
-                          <a className={styleBotao.botao} id="conf-not" href="#4" onclick="not()">Resultado</a>
+                          <a className={styleBotao.botao} id="conf-not" href="#3" onclick="not()">Resultado</a>
                         </div>
                       </div>
+                    </div>
                     </div>
                   </div>
               </article>
