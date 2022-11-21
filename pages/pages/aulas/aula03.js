@@ -35,6 +35,7 @@ export default function aula03(){
         <section className="row">
         <div className="col-lg-3">
             <div className={styleLista.bgPurple}>
+              <div className="p-3">
               <nav className={styleLista.nav}>
                 <ul className="navbar-nav m-3 p-3">
                   <li className={styleLista.li}>
@@ -93,6 +94,7 @@ export default function aula03(){
                 </li>
               </ul>
             </nav>
+              </div>
           </div>
           </div>
           <div className="col-lg-9">
