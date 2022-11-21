@@ -27,42 +27,54 @@ export default function aulas() {
                 </tr>
                 <tr>
                   <td>
-                    <Link className={styleBotao.botao} href="/pages/aulas/aula01">01</Link>
+                    <Link href="/pages/aulas/aula01">
+                    <div className={styleBotao.botao}>01</div>
+                    </Link>
                   </td>
                   <td>HTML</td>
                   <td>Git com HTML e CSS</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className={styleBotao.botao} href="/pages/aulas/aula02">02</Link>
+                    <Link href="/pages/aulas/aula02">
+                      <div className={styleBotao.botao}>02</div>
+                      </Link>
                   </td>
                   <td>CSS3</td>
                   <td>Seletores CSS 3</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link className={styleBotao.botao} href="/pages/aulas/aula03">03</Link>
+                    <Link href="/pages/aulas/aula03">
+                    <div className={styleBotao.botao}>03</div>
+                    </Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Introdução ao JavaScript</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link href="/pages/aulas/aula04" className={styleBotao.botao}>04</Link>
+                    <Link href="/pages/aulas/aula04" >
+                    <div className={styleBotao.botao}>04</div>  
+                    </Link>
                   </td>
                   <td>BootStrap</td>
                   <td>Implementando Bootstrap</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link href="/pages/aulas/aula05" className={styleBotao.botao}>05</Link>
+                    <Link href="/pages/aulas/aula05" >
+                      <div className={styleBotao.botao}>05</div>
+                    </Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Operadores em JavaScript</td>
                 </tr>
                 <tr>
                   <td>
-                    <Link href="/pages/aulas/aula06" className={styleBotao.botao}>06</Link>
+                    <Link href="/pages/aulas/aula06" >
+                    <div className={styleBotao.botao}>06</div>
+                    </Link>
                   </td>
                   <td>JavaScript</td>
                   <td>Portas Lógicas em JavaScript</td>
