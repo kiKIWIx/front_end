@@ -24,7 +24,7 @@ export default function aula05(){
                   <img className={[styleEstilo.cinza, styleEstilo.arredondar,styleEstilo.img].join(" ")} src="/logo.jpg" type="jpg" alt="Logo Microcamp" />
                   </Link>
                 </li>
-                <li className="nav-item text-white m-1">
+                <li className="nav-item text-white m-2">
                   <h4 style={{textAlign: 'center'}}>Aula 05 - Operadores em JavaScript</h4>
                 </li>
               </ul>
