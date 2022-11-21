@@ -24,7 +24,7 @@ export default function aula01(){
                   </Link>
                 </li>
                 <li className="nav-item text-white">
-                  <h4>Aula 01 - Git com HTML e CSS</h4>
+                  <h4 style={{textAlign: 'center'}}>Aula 01 - Git com HTML e CSS</h4>
                 </li>
               </ul>
             </div>
@@ -111,7 +111,6 @@ export default function aula01(){
                   </ul>
                 </div>
               </div>
-              
               <div className="card m-3">
                 <div className="card-body">
                   <div className={styleEstilo.cinzaEscuro}>
