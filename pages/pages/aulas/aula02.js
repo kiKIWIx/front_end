@@ -18,12 +18,12 @@ export default function aula02(){
           <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
             <div className="container-fluid">
               <ul className="navbar-nav container">
-                <li className="nav-item">
+                <li className="nav-item m-1">
                   <Link className="navbar-brand" href="http://microcamp.com">
                   <img className={[styleEstilo.cinza, styleEstilo.arredondar,styleEstilo.img].join(" ")} src="/logo.jpg" type="jpg" alt="Logo Microcamp" />
                   </Link>
                 </li>
-                <li className="nav-item text-white">
+                <li className="nav-item text-white m-1">
                   <h4 style={{textAlign: 'center'}}>Aula 02 - Seletores CSS 3</h4>
                 </li>
               </ul>
