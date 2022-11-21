@@ -214,7 +214,7 @@ export default function aula06(){
                     <div className="col-xl-6">
                       <div className="card m-3">
                         <div className="card-body">
-                        <div>
+                        <div clasname={styleEstilo.cinza}>
                         <h4 className="cinza text-white p-2 text-center" id={1}>Porta Lógica Or (Ou)</h4>
                         </div>
                         <p className="m-3" style={{textAlign: 'justify'}}>Essa porta retorna falso somente quando todas as entradas
@@ -268,8 +268,8 @@ export default function aula06(){
                   <div className="col-xl-6">
                       <div className="card m-3">
                         <div className="card-body">
-                        <div>
-                        <h4 className="cinza text-white p-2 text-center" id={1}>Porta Lógica Xor (Exclusiva)</h4>
+                        <div className={styleEstilo.cinza}>
+                        <h4 className="p-2 text-center" id={1}>Porta Lógica Xor (Exclusiva)</h4>
                         </div>
                         <p className="m-3" style={{textAlign: 'justify'}}>Essa porta retorna verdadeiro somente quando uma das entradas
                           for verdadeira e a outra for falsa. Segue exemplo das entradas A e B e sua respectiva saída R: </p>
@@ -322,7 +322,7 @@ export default function aula06(){
                 <div className="col-xl-6">
                   <div className="card m-3">
                     <div className="card-body">
-                      <div>
+                      <div clasname={styleEstilo.cinza}>
                         <h4 className="cinza text-white p-2 text-center" id={1}>Porta Lógica Not (Não)</h4>
                       </div>
                         <p className="m-3" style={{textAlign: 'justify'}}>Essa porta retorna falso somente quando uma das entradas
