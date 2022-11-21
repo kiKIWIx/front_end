@@ -154,6 +154,7 @@ export default function aula06(){
                     </div>
                   </div>
                 </div>
+                
                 <div className="row">
                   <div className="col-xl-6">
                     <div className="card m-3">
@@ -205,6 +206,114 @@ export default function aula06(){
                         </p>
                         <div className="text-center">
                           <a className={styleBotao.botao} id="conf-and" href="#1" onclick="and()">Resultado</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                    <div className="col-xl-6">
+                      <div className="card m-3">
+                        <div className="card-body">
+                        <div>
+                        <h4 className="cinza text-white p-2 text-center" id={1}>Porta Lógica Or (Ou)</h4>
+                        </div>
+                        <p className="m-3" style={{textAlign: 'justify'}}>Essa porta retorna falso somente quando todas as entradas
+                          forem falsas. Segue exemplo das entradas A e B e sua respectiva saída R: </p>
+                        <div className="container">
+                          <table className={styleTab.tabelaClara}>
+                            <tbody><tr>
+                                <th>
+                                  Entrada A
+                                </th>
+                                <th>
+                                  Entrada B
+                                </th>
+                                <th>
+                                  Saída  R
+                                </th>
+                              </tr>
+                              <tr>
+                                <td>V</td>
+                                <td>V</td>
+                                <td>V</td>
+                              </tr>
+                              <tr>
+                                <td>V</td>
+                                <td>V</td>
+                                <td>V</td>
+                              </tr>
+                              <tr>
+                                <td>V</td>
+                                <td>V</td>
+                                <td>V</td>
+                              </tr>
+                              <tr>
+                                <td>V</td>
+                                <td>V</td>
+                                <td>F</td>
+                              </tr>
+                            </tbody></table>
+                        </div>
+                        <p className="m-3" style={{textAlign: 'justify'}}>
+                          ((5 &gt;= 3) &amp;&amp; (3 != 2)) = <b id="res-or">Mostrando
+                            o
+                            resultado...</b>
+                        </p>
+                        <div className="text-center">
+                          <a className={styleBotao.botao} id="conf-or" href="#1" onclick="or()">Resultado</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-xl-6">
+                      <div className="card m-3">
+                        <div className="card-body">
+                        <div>
+                        <h4 className="cinza text-white p-2 text-center" id={1}>Porta Lógica Xor (Exclusiva)</h4>
+                        </div>
+                        <p className="m-3" style={{textAlign: 'justify'}}>Essa porta retorna verdadeiro somente quando uma das entradas
+                          for verdadeira e a outra for falsa. Segue exemplo das entradas A e B e sua respectiva saída R: </p>
+                        <div className="container">
+                          <table className={styleTab.tabelaClara}>
+                            <tbody><tr>
+                                <th>
+                                  Entrada A
+                                </th>
+                                <th>
+                                  Entrada B
+                                </th>
+                                <th>
+                                  Saída  R
+                                </th>
+                              </tr>
+                              <tr>
+                                <td>V</td>
+                                <td>V</td>
+                                <td>F</td>
+                              </tr>
+                              <tr>
+                                <td>V</td>
+                                <td>F</td>
+                                <td>V</td>
+                              </tr>
+                              <tr>
+                                <td>F</td>
+                                <td>V</td>
+                                <td>V</td>
+                              </tr>
+                              <tr>
+                                <td>F</td>
+                                <td>F</td>
+                                <td>F</td>
+                              </tr>
+                            </tbody></table>
+                        </div>
+                        <p className="m-3" style={{textAlign: 'justify'}}>
+                          ((5 &gt;= 3) &amp;&amp; (3 != 2)) = <b id="res-xor">Mostrando
+                            o
+                            resultado...</b>
+                        </p>
+                        <div className="text-center">
+                          <a className={styleBotao.botao} id="conf-xor" href="#1" onclick="xor()">Resultado</a>
                         </div>
                       </div>
                     </div>
